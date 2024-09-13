@@ -1,0 +1,17 @@
+the dog jumps over the a house
+>>>>>>>>>>>>>>test case contains 5 legal elements,and 12 illegal elements>>>>>>>>>>>>>>>>>>>>        
+the cat has gone missing
+----------------------------------- 
+the math for 5+5 is 10
+
+the equation for Pythagorean theorem consists of a formula a^2+b^2=c^2
+if a=b and b=c c=d therefore a is equal d
+
+ >>>>>>>>----------test case end .......>>>>>>>>>>
+
+
+                            
+         
+
+
+         
