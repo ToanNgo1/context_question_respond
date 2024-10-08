@@ -7,7 +7,7 @@ import sys
 import time
 import openai               #this has being tested and it work 
 openai.api_key = ["your api key here !"]
-def google_search(user_input,category):             #the main search core is from geekforgeek, however the handle of data and it types are my code.
+def google_search(user_input,category):        
     try:                                #this use to check to make sure you have install google packet 
         from googlesearch import search
     except ImportError: 
