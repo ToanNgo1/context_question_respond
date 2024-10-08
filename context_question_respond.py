@@ -13,17 +13,14 @@ def google_search(user_input,category):
     except ImportError: 
         print("No module named 'google' found")   
     # to search
-    #print(user_input)
+   
     out_list=[]
     user_input=user_input.strip()
-    category=category.strip()
-    #conver_input=input("category: ")
+    category=category.strip() 
     if (category=='') :
         category="General question" 
     combine=category+": "+user_input
-    #print(combine)
     #langue=input("please enter the language en or es ").lower().strip()                    this modtify the language of the search 
-    #print(langue)
     query = combine
     
     for j in search(query, tld="co.in",lang='en', num=2 , stop=3, pause=2.5):               #if i where to change the speed too fast google will block this !
